@@ -1,0 +1,15 @@
+name: build_and_deploy
+
+on:
+  push:
+    branches: master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: login
+        run: npm login --registry=https://npm.pkg.github.com --scope=@phanatic
+      - name: push
+        run: npm publish
