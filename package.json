@@ -16,7 +16,7 @@
     "url": "https://github.com/JH-WebWorks/rules/issues"
   },
   "homepage": "https://github.com/JH-WebWorks/rules#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
