@@ -15,6 +15,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@jh-webworks"
       - run: echo registry=https://npm.pkg.github.com/jh-webworks >> .npmrc
+      - run: echo ${{secrets.PUBLISH_GITHUB_TOKEN}} >> .npmrc
       - name: push
         run: npm publish --access public
         env:
