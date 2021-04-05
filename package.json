@@ -1,6 +1,6 @@
 {
   "name": "@jh-webworks/eslint-config-jh-webworks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a company eslint config.",
   "main": "index.js",
   "scripts": {
