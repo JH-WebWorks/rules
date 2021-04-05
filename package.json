@@ -1,6 +1,6 @@
 {
   "name": "@jh-webworks/eslint-config-jh-webworks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a company eslint config.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
     "typescript": "^4.2.3"
   }
 }
