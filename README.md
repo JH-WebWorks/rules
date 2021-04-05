@@ -15,7 +15,7 @@ Eslint is a package to check your javascript/typescript code. We provide our own
    this hooks up the root folder of the package to the github npm package registry
 2. install eslint and the eslint-config-jh-webworks package
    ```bash
-   yarn add --dev eslint @jh-webworks/eslint-config-jh-webworks
+   yarn add --dev eslint @jh-webworks/eslint-config-jh-webworks@latest
    ```
 3. create a `.eslintrc.json` file and fill it with:
 
